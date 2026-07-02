@@ -1,0 +1,45 @@
+.login__button {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 20px;
+}
+
+.login__button--style {
+  border: 1px solid #e5e7eb;
+  padding: 10px 4.96px 10px 4.96px;
+  gap: 8px;
+  background-color: var(--color-primary);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__button--style span {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content__divide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.content__divide span {
+  font-size: 12px;
+}
+
+.content__divide hr {
+  height: 1px;
+  width: 107.5px;
+}
+
+#login {
+  padding: 4px 12px 4px 12px;
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+}

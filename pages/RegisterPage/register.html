@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../../shared/css/reset.css" />
+    <link rel="stylesheet" href="../../shared/css/variables.css" />
+    <link rel="stylesheet" href="../../shared/css/typography.css" />
+    <link rel="stylesheet" href="../../shared/css/common.css" />
+    <link rel="stylesheet" href="../../layout/Header/header.css" />
+    <link rel="stylesheet" href="../../components/LeftPanel/left-panel.css" />
+    <link rel="stylesheet" href="../../components/RightPanel/right-panel.css" />
+    <link rel="stylesheet" href="register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div data-include="../../layout/Header/header.html"></div>
+    <main>
+      <div class="container">
+        <div class="panel">
+          <div data-include="../../components/LeftPanel/left-panel.html"></div>
+          <div data-include="../../components/RightPanel/right-panel.html">
+            <div class="content__title">
+              <h2>Create your account</h2>
+              <span>Start your 14-day free trial. No card required.</span>
+            </div>
+            <div class="register__button">
+              <button class="register__button--style">
+                <img src="/assets/icons/google.svg" alt="" width="14.08" height="18" />
+                <span>Google</span>
+              </button>
+              <button class="register__button--style">
+                <img src="/assets/icons/github.svg" alt="" width="15" height="18" />
+                <span>Github</span>
+              </button>
+            </div>
+            <div class="content__divide--register">
+              <hr />
+              <span>or</span>
+              <hr />
+            </div>
+            <form action="" class="form">
+              <div class="form__input">
+                <div class="form__input--error">
+                  <label for="name" id="label_name">Full Name</label>
+                </div>
+                <input type="text" name="" id="name" placeholder="Enter your name" />
+              </div>
+              <div class="form__input">
+                <div class="form__input--error">
+                  <label for="email" id="label_email">Email</label>
+                </div>
+                <input type="email" name="" id="email" placeholder="Enter your email" />
+              </div>
+              <div class="form__input">
+                <div class="form__input--error">
+                  <label for="password" id="label_password">Password</label>
+                </div>
+                <div class="form__show-password">
+                  <input type="password" name="" id="password" placeholder="Enter your password" />
+                  <button type="button" id="show_password">
+                    <img src="/assets/icons/eye.svg" alt="" width="16" height="16" />
+                  </button>
+                </div>
+              </div>
+              <div class="form__input">
+                <div class="form__input--error">
+                  <label for="confirm_password" id="label_confirm_password">Confirm password</label>
+                </div>
+                <div class="form__show-password">
+                  <input type="password" name="" id="confirm_password" placeholder="Re-enter your password" />
+                  <button type="button" id="show_confirm_password">
+                    <img src="/assets/icons/eye.svg" alt="" width="16" height="16" />
+                  </button>
+                </div>
+              </div>
+              <div class="form__option">
+                <div class="form__remember">
+                  <input type="checkbox" name="" id="check_term_policy"/>
+                  <span id="policy"
+                    >I agree to the <span class="form__term--policy">Terms of Service</span>
+                    and
+                    <span class="form__term--policy">Privacy Policy</span></span
+                  >
+                </div>
+              </div>
+              <button class="form__button" type="submit">Create Account</button>
+            </form>
+            <div class="auth__switch">
+              <span>Don't have an account? </span>
+              <a href="/index.html">Sign in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../../shared/js/include.js"></script>
+    <script type="module" src="register.js"></script>
+  </body>
+</html>

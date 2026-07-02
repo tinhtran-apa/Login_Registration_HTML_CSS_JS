@@ -1,0 +1,15 @@
+.right__panel {
+  background-color: var(--color-primary);
+  border-radius: 0px 20px 20px 0px;
+  height: 695px;
+  display: flex;
+  align-items: center;
+}
+
+.right__panel--content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 83.84px;
+  padding-right: 83.84px;
+}
+

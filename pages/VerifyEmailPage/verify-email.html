@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Email</title>
+    <link rel="stylesheet" href="../../shared/css/reset.css" />
+    <link rel="stylesheet" href="../../shared/css/variables.css" />
+    <link rel="stylesheet" href="../../shared/css/typography.css" />
+    <link rel="stylesheet" href="../../shared/css/common.css" />
+    <link rel="stylesheet" href="../../layout/Header/header.css" />
+    <link rel="stylesheet" href="../../components/LeftPanel/left-panel.css" />
+    <link rel="stylesheet" href="../../components/RightPanel/right-panel.css" />
+    <link rel="stylesheet" href="verify-email.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div data-include="../../layout/Header/header.html"></div>
+    <main>
+      <div class="container">
+        <div class="panel">
+          <div data-include="../../components/LeftPanel/left-panel.html"></div>
+          <div data-include="../../components/RightPanel/right-panel.html">
+            <div class="content__icon">
+              <img src="../../assets/icons/mail.svg" alt="" />
+            </div>
+            <div class="content__title">
+              <h2>Verify your email</h2>
+              <span>We sent a 6-digit code to <span>your email</span>. Enter it below to confirm your address.</span>
+            </div>
+            <form class="form">
+              <div class="form__input">
+                <input type="text" />
+                <input type="text" />
+                <input type="text" />
+                <input type="text" />
+                <input type="text" />
+                <input type="text" />
+              </div>
+
+              <button type="submit" class="form__button">Verify email</button>
+            </form>
+            <div class="auth__switch">
+              <span>Didn't get it? </span>
+              <a href="/pages/RegisterPage/register.html">Resend Code</a>
+            </div>
+            <div class="auth__switch">
+              <a class="auth__back" href="/index.html">
+                <img src="../../assets/icons/arrow_left.svg" alt="" />
+                <span>Back to sign in</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../../shared/js/include.js"></script>
+  </body>
+</html>

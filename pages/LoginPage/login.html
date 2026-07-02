@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../../shared/css/reset.css" />
+    <link rel="stylesheet" href="../../shared/css/variables.css" />
+    <link rel="stylesheet" href="../../shared/css/typography.css" />
+    <link rel="stylesheet" href="../../shared/css/common.css" />
+    <link rel="stylesheet" href="../../layout/Header/header.css" />
+    <link rel="stylesheet" href="../../components/LeftPanel/left-panel.css" />
+    <link rel="stylesheet" href="../../components/RightPanel/right-panel.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div data-include="../../layout/Header/header.html"></div>
+    <main>
+      <div class="container">
+        <div class="panel">
+          <div data-include="../../components/LeftPanel/left-panel.html"></div>
+          <div data-include="../../components/RightPanel/right-panel.html">
+            <div class="content__title">
+              <h2>Welcome Back</h2>
+              <span>Sign in to continue to your workspace</span>
+            </div>
+            <div class="login__button">
+              <button class="login__button--style">
+                <img src="/assets/icons/google.svg" alt="" width="14.08" height="18" />
+                <span>Continue with Google</span>
+              </button>
+              <button class="login__button--style">
+                <img src="/assets/icons/github.svg" alt="" width="15" height="18" />
+                <span>Continue with Github</span>
+              </button>
+            </div>
+            <div class="content__divide">
+              <hr />
+              <span>or sign in with email</span>
+              <hr />
+            </div>
+            <form class="form">
+              <div class="form__input">
+                <div class="form__input--error">
+                  <label for="email" id="label_email">Email</label>
+                </div>
+                <input type="email" name="" id="email" placeholder="Enter your email" />
+              </div>
+              <div class="form__input">
+                <div class="form__input--error">
+                  <label for="password" id="label_password">Password</label>
+                </div>
+                <div class="form__show-password">
+                  <input type="password" name="" id="password" placeholder="Enter your password" />
+                  <button id="show_password" onclick="handleShowPassword()" type="button">
+                    <img src="/assets/icons/eye.svg" alt="" width="16" height="16" />
+                  </button>
+                </div>
+              </div>
+              <div class="form__option">
+                <div class="form__remember">
+                  <input type="checkbox" name="" id="" />
+                  <span>Remember me</span>
+                </div>
+                <div class="form__forgot">
+                  <a href="">Forgot your password?</a>
+                </div>
+              </div>
+              <button class="form__button" type="submit">Sign In</button>
+            </form>
+            <div class="auth__switch">
+              <span>Don't have an account? </span>
+              <a href="/pages/RegisterPage/register.html">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../../shared/js/include.js"></script>
+    <script type="module" src="login.js"></script>
+  </body>
+</html>

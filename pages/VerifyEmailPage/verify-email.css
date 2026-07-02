@@ -1,0 +1,21 @@
+#verify_email {
+  padding: 4px 12px 4px 12px;
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+}
+
+.content__title span span {
+  color: #6b7280;
+  font-weight: bold;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.form__input input {
+  width: 48px;
+  height: 48px;
+}

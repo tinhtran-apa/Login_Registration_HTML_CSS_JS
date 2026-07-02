@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-secondary);
+    height: 49px;
+    border-bottom: 1px solid #E5E7EB;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    
+}
+
+nav span {
+    margin-left: 4px;
+    line-height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 16777200px;
+}
