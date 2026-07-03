@@ -3,6 +3,11 @@
   padding: 40px;
   border-radius: 16px 0px 0px 16px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 376.3125px;
+  width: 100%;
 }
 
 .left__balon--first {
@@ -51,11 +56,6 @@
   letter-spacing: -0.45px;
 }
 
-.left__panel--content {
-  margin-top: 162.5px;
-  margin-bottom: 162.5px;
-}
-
 .left__panel--content span {
   color: #ffffffb2;
   font-weight: 400;
@@ -90,4 +90,20 @@
   padding: 2px;
   border-radius: 16777200px;
   border: 1px solid #ffffff66;
+}
+
+/* tabel 768px */
+@media (max-width: 768px) {
+  .left__panel {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 248px;
+  }
+}
+
+/* mobile 425px */
+@media (max-width: 425px) {
+  .left__panel {
+    display: none;
+  }
 }

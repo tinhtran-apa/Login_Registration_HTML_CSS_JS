@@ -17,7 +17,8 @@ const includeHTML = async () => {
     console.error(error);
   }
 };
-includeHTML();
+window.includesReady = includeHTML();
+
 
 // const checkUrl = () => {
 //   if(window.location.href.includes("login")) {

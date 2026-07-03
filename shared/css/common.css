@@ -40,7 +40,8 @@
   color: #111827;
   padding: 10px 14px 10px 14px;
   border-radius: 12px;
-  width: 352px;
+  max-width: 352px;
+  width: 100%;
   margin-bottom: 16px;
   font-size: 14px;
   font-weight: 400;
@@ -172,4 +173,36 @@
 
 .auth__back span {
   color: var(--color-tertiary);
+}
+
+/* tablet 768px */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form__forgot {
+    text-align: end;
+  }
+  .panel {
+    max-width: 700px;
+
+  }
+}
+
+/* mobile 425px */
+@media (max-width: 425px) {
+  .container {
+    overflow-y: hidden;
+  }
+  .content__title {
+    text-align: center;
+  }
+  .panel {
+    max-width: 380px;
+  }
+  .content__icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

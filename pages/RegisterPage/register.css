@@ -37,7 +37,7 @@
 
 .content__divide--register hr {
   height: 1px;
-  width: 158px;
+  width: 100%;
 }
 
 .form__term--policy {
@@ -53,4 +53,3 @@
   background-color: var(--color-tertiary);
   color: var(--color-primary);
 }
-

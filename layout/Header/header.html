@@ -1,5 +1,8 @@
 <header>
-  <nav>
+  <nav class="menu__desktop">
+    <button type="button" class="icon__bars" id="menu_bar">
+      <img src="../../assets/icons/bars.svg" alt="" />
+    </button>
     <a id="login" href="/index.html"> 1 · Login </a>
     <span>·</span>
     <a id="register" href="/pages/RegisterPage/register.html"> 2 · Register </a>
@@ -12,4 +15,15 @@
     <span>·</span>
     <a id="success" href="/pages/SuccessPage/success.html"> 6 · Success </a>
   </nav>
+  <aside class="menu__mobile" id="menu_mobile">
+    <div class="background__menu--left">
+      <a id="login" href="/index.html"> 1 · Login </a>
+      <a id="register" href="/pages/RegisterPage/register.html"> 2 · Register </a>
+      <a id="forgot_password" href="/pages/ForgotPasswordPage/forgot-password.html"> 3 · Forgot Password </a>
+      <a id="reset_password" href="/pages/ResetPasswordPage/reset-password.html"> 4 · Reset Password </a>
+      <a id="verify_email" href="/pages/VerifyEmailPage/verify-email.html"> 5 · Verify Email </a>
+      <a id="success" href="/pages/SuccessPage/success.html"> 6 · Success </a>
+    </div>
+    <div class="background__menu--right"></div>
+  </aside>
 </header>
