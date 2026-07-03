@@ -43,3 +43,10 @@
   background-color: var(--color-tertiary);
   color: var(--color-primary);
 }
+
+/*mobile 425px*/
+@media (max-width: 425px) {
+  .content__divide span {
+    text-align: center;
+  }
+}
