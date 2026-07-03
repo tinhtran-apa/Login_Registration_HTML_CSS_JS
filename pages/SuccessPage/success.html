@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Success</title>
+    <link rel="stylesheet" href="../../shared/css/reset.css" />
+    <link rel="stylesheet" href="../../shared/css/variables.css" />
+    <link rel="stylesheet" href="../../shared/css/typography.css" />
+    <link rel="stylesheet" href="../../shared/css/common.css" />
+    <link rel="stylesheet" href="../../layout/Header/header.css" />
+    <link rel="stylesheet" href="../../components/LeftPanel/left-panel.css" />
+    <link rel="stylesheet" href="../../components/RightPanel/right-panel.css" />
+    <link rel="stylesheet" href="sucess.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div data-include="../../layout/Header/header.html"></div>
+    <main>
+      <div class="container">
+        <div class="panel">
+          <div data-include="../../components/LeftPanel/left-panel.html"></div>
+          <div data-include="../../components/RightPanel/right-panel.html">
+            <div class="content__icon">
+              <img src="../../assets/icons/success.svg" alt="" />
+            </div>
+            <div class="content__title">
+              <h2>You're all set</h2>
+              <span>Your email has been verified and your account is ready. Welcome to Northwind — let's get you to your workspace.</span>
+            </div>
+            <form class="form">
+              <button type="submit" class="form__button">Continue to dashboard</button>
+            </form>
+            <div class="auth__switch">
+              <span>Redirecting you automatically in 1 second…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../../shared/js/include.js"></script>
+  </body>
+</html>
