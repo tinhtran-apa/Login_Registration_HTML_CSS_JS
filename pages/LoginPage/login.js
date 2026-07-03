@@ -17,7 +17,6 @@ const handleShowPassword = () => {
   showPassword(document.getElementById("password"));
 };
 document.getElementById("show_password").addEventListener("click", handleShowPassword);
-document.getElementById("show_password").removeEventListener("click", handleShowPassword);
 
 const formLogin = document.querySelector(".form");
 if (formLogin) {

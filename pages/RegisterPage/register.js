@@ -35,13 +35,11 @@ const handleShowPassword = () => {
   showPassword(document.getElementById("password"));
 };
 document.getElementById("show_password").addEventListener("click", handleShowPassword);
-document.getElementById("show_password").removeEventListener("click", handleShowPassword)
 
 const handleShowConfirmPassword = () => {
   showPassword(document.getElementById("confirm_password"));
 };
 document.getElementById("show_confirm_password").addEventListener("click", handleShowConfirmPassword);
-document.getElementById("show_confirm_password").removeEventListener("click", handleShowConfirmPassword);
 
 const formRegister = document.querySelector(".form");
 
