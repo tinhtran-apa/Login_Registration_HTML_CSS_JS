@@ -61,14 +61,13 @@ header {
   border: 0;
   display: none;
 }
-/* tablet 768px */
+
 @media (max-width: 768px) {
   .menu__desktop span {
     display: none;
   }
 }
 
-/* mobile 425px */
 @media (max-width: 425px) {
   nav a {
     display: none;

@@ -25,57 +25,75 @@
       <div class="container">
         <div class="panel">
           <div data-include="../../components/left-panel/left-panel.html"></div>
+
           <div data-include="../../components/right-panel/right-panel.html">
             <div class="content__title">
               <h4>Welcome Back</h4>
+
               <span>Sign in to continue to your workspace</span>
             </div>
+
             <div class="login__button">
               <button class="login__button--style">
                 <img src="/assets/icons/google.svg" alt="" width="14.08" height="18" />
+
                 <span>Continue with Google</span>
               </button>
+
               <button class="login__button--style">
                 <img src="/assets/icons/github.svg" alt="" width="15" height="18" />
+
                 <span>Continue with Github</span>
               </button>
             </div>
+
             <div class="content__divide">
               <hr />
               <span>or sign in with email</span>
               <hr />
             </div>
+
             <form class="form">
               <div class="form__input">
                 <div class="form__input--error">
                   <label for="email" id="label_email">Email</label>
                 </div>
+
                 <input type="email" name="" id="email" placeholder="Enter your email" />
               </div>
+
               <div class="form__input">
                 <div class="form__input--error">
                   <label for="password" id="label_password">Password</label>
                 </div>
+
                 <div class="form__show-password">
                   <input type="password" name="" id="password" placeholder="Enter your password" />
+
                   <button id="show_password" type="button">
                     <img src="/assets/icons/eye.svg" alt="" width="16" height="16" />
                   </button>
+
                 </div>
               </div>
+
               <div class="form__option">
                 <div class="form__remember">
                   <input type="checkbox" name="" id="" />
+
                   <span>Remember me</span>
                 </div>
                 <div class="form__forgot">
                   <a href="">Forgot your password?</a>
                 </div>
               </div>
+
               <button class="form__button" type="submit">Sign In</button>
             </form>
+            
             <div class="auth__switch">
               <span>Don't have an account? </span>
+
               <a href="/pages/register-page/register.html">Sign up</a>
             </div>
           </div>

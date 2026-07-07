@@ -16,7 +16,6 @@
   padding-right: 83.84px;
 }
 
-/* tabel 768px */
 @media (max-width: 768px) {
   .right__panel--content {
     display: flex;
@@ -29,7 +28,6 @@
   }
 }
 
-/* mobile 425px */
 @media (max-width: 425px) {
   .right__panel {
     border-top-left-radius: 20px;

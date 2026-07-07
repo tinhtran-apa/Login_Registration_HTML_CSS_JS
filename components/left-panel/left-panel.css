@@ -92,7 +92,6 @@
   border: 1px solid #ffffff66;
 }
 
-/* tabel 768px */
 @media (max-width: 768px) {
   .left__panel {
     padding-left: 15px;
@@ -101,7 +100,6 @@
   }
 }
 
-/* mobile 425px */
 @media (max-width: 425px) {
   .left__panel {
     display: none;

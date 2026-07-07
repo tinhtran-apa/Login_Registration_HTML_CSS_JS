@@ -175,7 +175,6 @@
   color: var(--color-tertiary);
 }
 
-/* tablet 768px */
 @media (max-width: 768px) {
   .container {
     padding-left: 10px;
@@ -190,7 +189,6 @@
   }
 }
 
-/* mobile 425px */
 @media (max-width: 425px) {
   .container {
     overflow-y: hidden;
