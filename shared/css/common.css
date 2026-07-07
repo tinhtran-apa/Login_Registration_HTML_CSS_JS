@@ -49,6 +49,11 @@
   letter-spacing: 0px;
 }
 
+button:hover {
+  transform: scale(1.05);
+  transition-duration: 300ms;
+}
+
 .form__input input.focus-style {
   outline: none;
   border-color: red;
@@ -185,7 +190,6 @@
   }
   .panel {
     max-width: 700px;
-
   }
 }
 
